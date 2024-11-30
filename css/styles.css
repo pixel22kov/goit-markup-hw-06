@@ -627,6 +627,11 @@ ol {
     letter-spacing: 0.02em;
 }
 
+.portfolio-pict {
+    width: 288px;
+    height: 280px
+}
+
 @media screen and (min-width: 768px) {
     .portfolio-list{
         flex-direction: row;

@@ -455,12 +455,36 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="portfolio-card-box">
-                <img
-                  src="./images/img-bank.jpg"
-                  alt="bank-app"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/img-bank_dek@1x 1x,
+                      ./images/portfolio/img-bank_dek@2x 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/img-bank_tab@1x 1x,
+                      ./images/portfolio/img-bank_tab@2x 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/img-bank_mob@1x 1x,
+                      ./images/portfolio/img-bank_mob@2x 2x
+                    "
+                  />
+                  <img
+                    class="portfolio-pict"
+                    src="./images/portfolio/img-bank_mob@1x.jpg"
+                    alt="bank-app"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -475,7 +499,7 @@
             <li class="portfolio-item">
               <div class="portfolio-card-box">
                 <img
-                  src="./images/img-cashless-payment.jpg"
+                  src="./images/portfolio/img-payment_dek@1x.jpg"
                   alt="cashless-payment"
                   width="360"
                   height="300"
@@ -494,7 +518,7 @@
             <li class="portfolio-item">
               <div class="portfolio-card-box">
                 <img
-                  src="./images/img-med-app.jpg"
+                  src="./images/portfolio/img-med-app_dek@1x.jpg"
                   alt="meditation-app"
                   width="360"
                   height="300"
@@ -513,7 +537,7 @@
             <li class="portfolio-item">
               <div class="portfolio-card-box">
                 <img
-                  src="./images/img-taxi.jpg"
+                  src="./images/portfolio/img-taxi_dek@1x.jpg"
                   alt="taxi-service"
                   width="360"
                   height="300"
@@ -532,7 +556,7 @@
             <li class="portfolio-item">
               <div class="portfolio-card-box">
                 <img
-                  src="./images/img-screen.jpg"
+                  src="./images/portfolio/img-screen_dek@1x.jpg"
                   alt="screen-illustrations"
                   width="360"
                   height="300"
@@ -551,7 +575,7 @@
             <li class="portfolio-item">
               <div class="portfolio-card-box">
                 <img
-                  src="./images/img-onl-courses.jpg"
+                  src="./images/portfolio/img-courses_dek@1x.jpg"
                   alt="online-courses"
                   width="360"
                   height="300"
