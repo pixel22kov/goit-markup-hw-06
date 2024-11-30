@@ -633,6 +633,10 @@ ol {
 }
 
 @media screen and (min-width: 768px) {
+    .portfolio-pict {
+        width: 365px;
+        height: 300px
+    }
     .portfolio-list{
         flex-direction: row;
         flex-wrap: wrap;
@@ -653,6 +657,10 @@ ol {
 }
 
 @media screen and (min-width: 1158px) {
+    .portfolio-pict {
+        width: 365px;
+        height: 300px
+    }
     .portfolio-section {
         padding: 120px 0;
     }
