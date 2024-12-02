@@ -331,6 +331,7 @@ ol {
     background-size: cover;
     padding: 72px 0;
     max-width: 320px;
+    margin: 0 auto;
 }
 
 @media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
